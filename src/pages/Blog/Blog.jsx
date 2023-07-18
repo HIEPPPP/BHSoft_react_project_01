@@ -20,11 +20,11 @@ const Blog = () => {
 
     return (
         <div>
-            <div className="mt-9">
+            <div className="mt-[72px]">
                 <Slogan
                     backgroundImage={blog_slogan}
                     imgMask={slogan_mask}
-                    className={`${flexCenter} h-[258px] text-white mt-[36px]`}
+                    className={`${flexCenter} h-[258px] text-white`}
                 >
                     <div className="flex items-center gap-[910px]">
                         <div>
